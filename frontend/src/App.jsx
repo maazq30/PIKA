@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:3000"; // your Express backend
+// ✅ TEMPORARY: hardcode Render URL
+const API_URL = "https://pika-1-dhxw.onrender.com";
+
+ // your Express backend
 
 function App() {
   const [users, setUsers] = useState([]);
